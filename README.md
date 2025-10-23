@@ -1,7 +1,6 @@
 # Ultimate Generative AI
 
 This repository contains code and resources for the book **Ultimate Generative AI**, authored by **Praveen (prvnktech)**.  
-Each chapter folder includes code examples, notebooks, and supporting material.
 
 ## 📚 Table of Contents
 - [Chapter 01 Introduction to Generative Models](./Chapter_01_Introduction_to_Generative_Models)
@@ -28,15 +27,16 @@ Each chapter folder includes code examples, notebooks, and supporting material.
 
 ## ⚙️ Setup Instructions
 
-Clone the repository and install dependencies:
+Create a virtual environment and install dependencies:
+
 ```bash
-git clone git@github.com:prvnktech/Ultimate-Generative-AI.git
-cd Ultimate-Generative-AI
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
 ## 🤝 Contributing
-Pull requests are welcome! Please open an issue to discuss any significant changes before submitting.
+Pull requests welcome. Please discuss major changes first.
 
 ## 📜 License
 MIT License © 2025 Praveen (prvnktech)
