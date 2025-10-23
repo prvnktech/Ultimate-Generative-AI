@@ -1,8 +1,81 @@
 # Ultimate Generative AI
 
-This repository contains code and resources for the book **Ultimate Generative AI**, authored by **Praveen (prvnktech)**.  
+**Mastering Models from GANs to LLMs** — A practical guide to Generative AI
 
-## 📚 Table of Contents
+This repository contains all code examples, notebooks, and chapter folders from the book *Ultimate Generative AI* by Praveen Kumar. The book guides readers from **foundational concepts** to **advanced generative models**, emphasizing hands-on coding, real-world applications, and ethical AI use.
+
+For a detailed introduction and author background, see [ABOUT_BOOK.md](./ABOUT_BOOK.md).
+
+---
+
+## 📂 Repository Structure
+
+```
+Ultimate-Generative-AI/
+├─ Chapter_01_Introduction/
+├─ Chapter_02_Math_Foundations/
+├─ Chapter_03_VAEs/
+├─ Chapter_04_GANs/
+├─ ... (Chapters 05 to 21)
+├─ ultimate_repo_setup.sh      # Cross-platform setup script
+├─ .gitignore
+├─ requirements.txt
+├─ README.md
+├─ ABOUT_BOOK.md
+```
+
+- Each `Chapter_XX_*` folder contains code examples and explanations for that chapter.  
+- `ultimate_repo_setup.sh` is a **single script** for setting up your environment on **Mac, Linux, or Windows**.
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Open Terminal (Mac/Linux) or Git Bash / PowerShell (Windows)
+
+### 2. Make the script executable (Mac/Linux)
+```bash
+chmod +x ultimate_repo_setup.sh
+```
+
+### 3. Run the script
+```bash
+./ultimate_repo_setup.sh
+```
+
+**What it does:**
+
+- Checks Python version (>= 3.10)  
+- Detects Conda or venv environment  
+- Creates and activates a virtual environment if needed  
+- Installs all required Python packages from `requirements.txt`  
+- Updates `.gitignore` and `README.md`  
+- Commits and pushes changes to GitHub  
+
+**Windows Users Tip:**  
+Use Git Bash or PowerShell. If `python` is not recognized, ensure Python is installed and added to your PATH: [Python Downloads](https://www.python.org/downloads/windows/)
+
+---
+
+## 📚 Quick Book Overview
+
+The book covers:
+
+- **Foundations & Math:** Probability, statistics, and optimization for generative modeling  
+- **Core Models:** VAEs, GANs, Diffusion Models  
+- **Advanced Models:** DCGANs, Conditional GANs, CycleGANs, StyleGANs, β-VAE, CVAE  
+- **Applications:** NLP, data augmentation, image/text generation, real-world deployment  
+- **Large Language Models & GPT:** LLM integration, LangChain, RAG, Agentic AI  
+- **Best Practices:** Evaluation, optimization, ethical AI, deployment tips  
+
+Each chapter includes **hands-on Python examples** using TensorFlow and PyTorch, helping readers implement and experiment with generative models.
+
+---
+
+## 📖 Chapter Navigation
+
+Click to explore each chapter folder:
+
 - [Chapter 01 Introduction to Generative Models](./Chapter_01_Introduction_to_Generative_Models)
 - [Chapter 02 Mathematical Foundations](./Chapter_02_Mathematical_Foundations)
 - [Chapter 03 Introduction to VAEs](./Chapter_03_Introduction_to_VAEs)
@@ -25,18 +98,14 @@ This repository contains code and resources for the book **Ultimate Generative A
 - [Chapter 20 Advanced Concepts](./Chapter_20_Advanced_Concepts)
 - [Chapter 21 Best Practices](./Chapter_21_Best_Practices)
 
-## ⚙️ Setup Instructions
-
-Create a virtual environment and install dependencies:
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
+---
 
 ## 🤝 Contributing
-Pull requests welcome. Please discuss major changes first.
+
+Pull requests welcome. Discuss major changes before submitting.
+
+---
 
 ## 📜 License
-MIT License © 2025 Praveen (prvnktech)
+
+MIT License © 2025 Praveen Kumar
