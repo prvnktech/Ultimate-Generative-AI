@@ -1,0 +1,29 @@
+# Core ML & DL Libraries
+torch
+torchvision
+tensorflow
+keras
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+opencv-python
+pillow
+
+# Generative Models
+diffusers
+transformers
+datasets
+accelerate
+
+# LangChain & LLMs
+langchain
+langchain-core
+langchain-community
+openai
+faiss-cpu
+
+# Utility
+tqdm
+notebook
