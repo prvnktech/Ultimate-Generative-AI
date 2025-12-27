@@ -1,0 +1,14 @@
+# Core Dependencies
+streamlit>=1.28.0
+torch>=2.0.0
+torchvision>=0.15.0
+matplotlib>=3.7.0
+numpy>=1.24.0
+
+# Optional Dependencies for Enhanced Functionality
+pillow>=10.0.0          # Image processing
+tqdm>=4.65.0           # Progress bars (useful for training loops)
+
+# Development Dependencies (Optional)
+jupyter>=1.0.0         # For notebook development
+ipython>=8.0.0         # Enhanced interactive shell
